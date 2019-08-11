@@ -1,0 +1,42 @@
+li{
+	float: left;
+	margin: 2%; 
+}
+
+#div2 img{
+	width: 300px;
+	height: 140px;
+	margin: 10px;
+}
+#top a{
+	margin-left: 0%;
+	font-size: 10px;
+	font-style: bold;
+}
+li{
+	margin-left: 10%;
+}
+div{
+	border: px solid black;
+}
+
+#cir img{
+	margin-left: 0%;
+	border: 2px solid black;
+}
+#cir div div{
+	margin-left: 10%;
+}
+
+#ar div{
+	margin: 2%;
+	padding: 2px;
+}
+#box div{
+	margin-left: 2%;
+}
+
+#box2 div{
+	margin: 0px;
+	margin-left: 9%;
+}
