@@ -1,0 +1,45 @@
+.head a{
+  	user-select: none;
+  	color: lightgreen;
+  	font-size: 60px;
+  	text-decoration: none;
+  }
+  .head a:hover{
+  	cursor: default;
+  	
+  	text-shadow: 0px 0px 10px #B0FF62;
+  
+  	text-decoration: none;
+  }
+
+
+
+    .carousel-item img{
+      height: 400px;
+      width: 90%;
+      margin-left: 5%;
+    }
+    .carousel-indicators li{
+      background-color: black;
+    }
+    .carousel-indicators active{
+      background-color: red;
+    }
+    #main1{
+      margin: 10%;
+    }
+
+    #collapse1 div{
+      border-bottom-right-radius: 30px;
+      border-bottom-left-radius: 30px;
+    }
+    div{
+      border: px solid black;
+    }
+
+    #foot div div div h6 a{
+  color: white;
+}
+#foot{
+  margin-top: 5%;
+}
