@@ -1,3 +1,5 @@
+<!--#include file="footer_text.html" -->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,8 +39,9 @@
 						</button>
 								<div class="dropdown-menu" aria-labelledby="dropdownMenu">
 										<a class="dropdown-item" href="about.html">About us</a>
-										<a class="dropdown-item" href="#">Another item</a>
-										<a class="dropdown-item" href="#">One more item</a>
+										<a class="dropdown-item" href="#">Who are we</a>
+										<a class="dropdown-item" href="#">Publication</a>
+                    <a class="dropdown-item" href="#">FAQ</a>
  								</div>	
  				</div>
 			</li>
@@ -48,9 +51,13 @@
    								 E-Resources
  							 </button>
  								<div class="dropdown-menu" aria-labelledby="dropdownMenu">
-    									<a class="dropdown-item" href="#">Item</a>
-    									<a class="dropdown-item" href="#">Another item</a>
-    									<a class="dropdown-item" href="#">One more item</a>
+    									<a class="dropdown-item" href="#">CADD</a>
+    									<a class="dropdown-item" href="#">Mechanical</a>
+    									<a class="dropdown-item" href="#">Civil</a>
+                      <a class="dropdown-item" href="#">Electrical</a>
+                      <a class="dropdown-item" href="#">Electronics</a>
+                      <a class="dropdown-item" href="#">Accounting</a>
+                      <a class="dropdown-item" href="#">C.C.C</a>
  				 				</div>
  				 	</div>
 			</li>
@@ -62,9 +69,10 @@
 				    		Programmes
 				  		</button>
 				  		<div class="dropdown-menu" aria-labelledby="dropdownMenu">
-				    			<a class="dropdown-item" href="#">Item</a>
-				    			<a class="dropdown-item" href="#">Another item</a>
-				    			<a class="dropdown-item" href="#">One more item</a>
+				    			<a class="dropdown-item" href="#">Certification Courses</a>
+				    			<a class="dropdown-item" href="#">Job Oriented Programmes</a>
+				    			<a class="dropdown-item" href="#">Job Oriented Programmes</a>
+                  <a class="dropdown-item" href="#">Corporate Training Programmes</a>
 				  		</div>
 				</div>		
 			</li>
@@ -76,38 +84,74 @@
     						Placements
   						</button>
  								<div class="dropdown-menu" aria-labelledby="dropdownMenu">
-    								<a class="dropdown-item" href="#">Item</a>
-    								<a class="dropdown-item" href="#">Another item</a>
-    								<a class="dropdown-item" href="#">One more item</a>
+    								<a class="dropdown-item" href="#">Placement clients</a>
+    								<a class="dropdown-item" href="#">Mentors</a>
+    								<a class="dropdown-item" href="#">Alumni</a>
   								</div> 
 				</div>
 			</li>
+
+
+
+      <li class="nav-item">
+        <div class="dropdown">
+              <button class="btn bg-light dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Courses
+              </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                    <a class="dropdown-item" href="#">Architecture</a>
+                    <a class="dropdown-item" href="#">Accounting</a>
+                    <a class="dropdown-item" href="#">Computer Basics</a>
+                    <a class="dropdown-item" href="#">Electrical</a>
+                    <a class="dropdown-item" href="#">Electronics</a>
+                    <a class="dropdown-item" href="#">Mechanical</a>
+                    <a class="dropdown-item" href="#">Job Oriented Courses</a>
+                    <a class="dropdown-item" href="#">Civil</a>
+                  </div> 
+        </div>
+      </li>
 			<li>
+
+
+        <!--Login Button-->
+         
+          <button  class="btn bg-light" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+         
+
 			</li>
-			<li>
-				<!-- Search -->
-				<input id="search" maxlength="50" type="text" style="color: black;background-color: rgb(192,192,192,.0);margin-top: 10px; 
-	width: 0px;
-
-	font-size: 20px;
-	opacity: 0; border-color: rgba(192,192,192,0);outline: none; transition: .5s; " placeholder=" Search" autofocus> 
 
 
-	<div style="float: right;">
+      <li>
+        <button class="btn bg-light" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button>
+      </li>
 
-	<svg class="mag" id="mag1" onclick="search();" width="40" height="40" style=" margin-top: 0px; border: 2px solid black;border-radius: 30px;">
 
-		<circle  cx="18.75" cy="18.75" r="6.25"
-		style="text-shadow: 2px 2px 10px white;stroke: black;stroke-width:2.5px;fill: none;" />
+			<!-- <li>
+        
+        <input id="search" maxlength="50" type="text" style="color: black;background-color: rgb(192,192,192,.0);margin-top: 10px; 
+  width: 0px;
 
-		<line x1="22.5" y1="23.125"
-		  x2="30" y2="31"
-		style="stroke:black; stroke-width:2.5"		  />
+  font-size: 20px;
+  opacity: 0; border-color: rgba(192,192,192,0);outline: none; transition: .5s; " placeholder=" Search" autofocus> 
 
-	</svg>
+
+  <div style="float: right;">
+
+  <svg class="mag" id="mag1" onclick="search();" width="40" height="40" style=" margin-top: 0px; border: 2px solid black;border-radius: 30px;">
+
+    <circle  cx="18.75" cy="18.75" r="6.25"
+    style="text-shadow: 2px 2px 10px white;stroke: black;stroke-width:2.5px;fill: none;" />
+
+    <line x1="22.5" y1="23.125"
+      x2="30" y2="31"
+    style="stroke:black; stroke-width:2.5"      />
+
+  </svg>
 </div>
-			</li>
-			<!-- Search End -->
+      </li>
+     -->
+
+     
 		</ul>
 
 </div>
@@ -117,7 +161,7 @@
 
 
 <!-- Caraousel -->
-<div id="main" class="carousel slide" data-ride="carousel" data-interval="1000">
+<div id="main" class="carousel slide" data-ride="carousel" data-interval="2500">
 	<!--Indicators-->
 	<ul class="carousel-indicators">
 		<li data-target="#main" data-slide-to="0"></li>
@@ -460,6 +504,91 @@
 </footer>
 <!-- Footer -->
 
+
+
+
+<!--Login-->
+
+
+<div id="bodydiv">
+
+
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="pic/avatar.png" alt="Avatar" class="avatar text-center">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+</div>
+
+
+
+
+
+<!--Sign Up-->
+
+
+
+
+<div id="bodydiv1">
+
+
+<div id="id02" class="modal">
+  <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+</div>
+
+
+
 <script >
 	function search()
 	{
@@ -507,6 +636,30 @@
 		
 		
 	}
+
+
+  // Get the modal
+var modal = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+
+
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
 </script>
 </body>
 </html>
